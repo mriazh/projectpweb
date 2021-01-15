@@ -263,6 +263,7 @@ body{
 	width: 99.25%;
 	display: flex;
 	justify-content: space-between;
+	bottom: 0;
 }
 .container-about{
 	width: 65%;
