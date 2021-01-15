@@ -264,7 +264,7 @@ body{
 	display: flex;
 	justify-content: space-between;
 	bottom: 0;
-	position: relative;
+	position: absolute;
 }
 .container-about{
 	width: 65%;
