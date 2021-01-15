@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tani Yuk</title>
+	<link rel="shortcut icon" href="icon/logo.png">
+	<link rel="stylesheet" type="text/css" href="discuss.css">
+</head>
+<body>
+	<div id="container-sidenav" class="container-nav">
+		<a href="javascript:void(0)" class="close-nav" onclick="closeNav()">&times</a>
+		<a href="index.html">
+			<img class="desktop-logo" src="icon/home-logo.png">
+			<img class="mobile-logo" src="icon/logo.png">
+		</a>
+		<form>
+			<img src="icon/search.png">
+			<input type="text" placeholder="Cari">
+		</form>
+		<div class="login-register">
+			<a class="login" href="login.html">Masuk</a>
+			<a class="register" href="register.html">Daftar</a>
+		</div>
+	</div>
+	<span class="open-nav" onclick="openNav()">&#9776</span>
+	<div class="back-nav"></div>
+	<div class="container-content-main">
+		<div class="container-content-1">
+			<div class="container-content-discuss">
+				<img class="avatar" src="icon/avatar-4.png">
+				<h1>Vero Purwanto Thamrin</h1>
+				<h2>13 Januari 2021</h2>
+				<p class="content-min">Mau tanya gan, teh yang biasa banyak beredar di pasaran itu teh apa ya? yang wangi2 gitu</p>
+			</div>
+			<div class="container-content-discuss">
+				<img class="avatar" src="icon/avatar-14.png">
+				<h1>Belinda Cici Novitasari</h1>
+				<h2>13 Januari 2021</h2>
+				<p class="content-min">Saya kasih sedikit informasi untuk cara pembuatannya. Teh hijau adalah produk teh yang dihasilkan dari proses pengolahan daun teh tanpa melalui tahapan fermentasi tetapi mengalami pengeringan dan penguapan daun. Sedangkan teh hitam itu produk teh yang dihasilkan dari pengolahan daun teh dengan proses fermentasi. Kalo teh wangi yang banyak beredar di masyarakat itu jenis produk teh hijau yang diolah kembali dan dicampur dengan aroma yang biasanya berupa aroma bunga melati.</p>
+			</div>
+			<div class="container-content-discuss">
+				<img class="avatar" src="icon/blank-avatar.png">
+				<h1 class="blank">Blank</h1>
+				<h2 class="blank">Blank</h2>
+				<textarea class="reply-1" cols="50%" rows="5%" placeholder="Tulis balasan..."></textarea>
+				<textarea class="reply-2" cols="40%" rows="4%" placeholder="Tulis balasan..."></textarea>
+				<textarea class="reply-3" cols="30%" rows="3%" placeholder="Tulis balasan..."></textarea>
+			</div>
+			<div class="reply">
+				<button onclick="replyPopup()">Balas</button>
+			</div>
+		</div>
+		<div class="container-content-2">
+			<div class="container-content-category">
+				<h1>Kategori</h1>
+				<a class="onion" onclick="categoryPopup()" href="#">Bawang</a><br><br>
+				<a class="coconut" onclick="categoryPopup()" href="#">Kelapa</a><br><br>
+				<a class="coffee" onclick="categoryPopup()" href="#">Kopi</a><br><br>
+				<a class="second-crop" onclick="categoryPopup()" href="#">Palawija</a><br><br>
+				<a class="cane" onclick="categoryPopup()" href="#">Tebu</a><br><br>
+				<a class="tea" onclick="categoryPopup()" href="#">Teh</a><br><br>
+				<a class="other" onclick="categoryPopup()" href="#">Lainnya</a><br><br>
+			</div>
+		</div>
+	</div>
+	<div class="container-end">
+		<div class="container-about">
+			<h1>Tentang Kami</h1>
+			<p>Tani Yuk merupakan forum komunitas untuk menjawab informasi</p>
+			<p>yang dibutuhkan bagi petani maupun masyarakat luas</p>
+		</div>
+		<div class="container-connect-contact">
+			<span class="connected">
+				<h1>Tetap Terhubung</h1>
+				<a href="https://web.facebook.com/rapzzzzy/">
+					<img class="social-media" src="icon/facebook.png">
+				</a>
+				<a href="https://www.instagram.com/rapzzzzy/">
+					<img class="social-media" src="icon/instagram.png">
+				</a>
+			</span>
+			<span class="contact">
+				<h1>Kontak Kami</h1>
+				<p>Jl. Veteran No. 2H, Surabaya</p>
+				<p>Telp	 : +62 21-3522514</p>
+				<p>Fax	 : +62 21-3522514</p>
+				<p>Email : hello@taniyuk.com</p>
+			</span>
+		</div>
+		<div class="copyright">
+			<p>© 2020 Taniyuk.com | All Right Reserved</p>
+		</div>
+	</div>
+</body>
+<script src="script.js"></script>
+</html>

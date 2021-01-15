@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tani Yuk</title>
+	<link rel="shortcut icon" href="icon/logo.png">
+	<link rel="stylesheet" type="text/css" href="discuss.css">
+</head>
+<body>
+	<div id="container-sidenav" class="container-nav">
+		<a href="javascript:void(0)" class="close-nav" onclick="closeNav()">&times</a>
+		<a href="index.html">
+			<img class="desktop-logo" src="icon/home-logo.png">
+			<img class="mobile-logo" src="icon/logo.png">
+		</a>
+		<form>
+			<img src="icon/search.png">
+			<input type="text" placeholder="Cari">
+		</form>
+		<div class="login-register">
+			<a class="login" href="login.html">Masuk</a>
+			<a class="register" href="register.html">Daftar</a>
+		</div>
+	</div>
+	<span class="open-nav" onclick="openNav()">&#9776</span>
+	<div class="back-nav"></div>
+	<div class="container-content-main">
+		<div class="container-content-1">
+			<div class="container-content-discuss">
+				<img class="avatar" src="icon/avatar-7.png">
+				<h1>Winda Syavira Sherina</h1>
+				<h2>12 Januari 2021</h2>
+				<p class="content-min">Disini ada yang tau gak kalo limbah kulit kopi bisa buat alternatif pakan ternak? kira2 gimana tuh caranya?</p>
+				<p class="content-min">Limbah kulit kopi difermentasi terlebih dahulu untuk meningkatkan kandungan nutrisinya. Fermentasi kulit kopi biasanya menggunakan larutan Aspergillus Niger. Cara pembuatannya dengan mencampurkan air dengan gula pasir, NPK, Urea, dan Aspergillus Niger kemudian campuran tersebut diinkubasi dan diaerasi selama 24-36 jam dan larutan tersebut siap digunakan.</p>
+				<p class="content-min">Kemudian limbah kulit kopi dicampur dengan larutan tersebut dengan membuat lapisan-lapisan campuran tersebut dan letakkan di tempat yang teduh dari hujan dan sinar matahari langsung. Diamkan selama 5-6 hari untuk proses fermentasi dan setelah 5-6 hari limbah kulit kopi yang telah terfermentasi dikeringkan kemudian giling sesuai kebutuhan dan limbah kulit kopi terfermentasi siap dijual ke peternakan yang membutuhkan pakan ternak.</p>
+			</div>
+			<div class="container-content-discuss">
+				<img class="avatar" src="icon/avatar-10.png">
+				<h1>Cahya Maheswara</h1>
+				<h2>12 Januari 2021</h2>
+				<p class="content-min">Hmmm, limbah kulit kopi ternyata pnya potensi ya untuk dijadikan alternatif pakan ternak, kayaknya bisa meningkatkan produktifitas ternak</p>
+			</div>
+			<div class="container-content-discuss">
+				<img class="avatar" src="icon/avatar-15.png">
+				<h1>Ida Sujiati</h1>
+				<h2>13 Januari 2021</h2>
+				<p class="content-min">Boleh nih buat yang punya kebun kopi terus punya hewan ternak juga, gausah beli pakan lagi haha</p>
+			</div>
+			<div class="container-content-discuss">
+				<img class="avatar" src="icon/blank-avatar.png">
+				<h1 class="blank">Blank</h1>
+				<h2 class="blank">Blank</h2>
+				<textarea class="reply-1" cols="50%" rows="5%" placeholder="Tulis balasan..."></textarea>
+				<textarea class="reply-2" cols="40%" rows="4%" placeholder="Tulis balasan..."></textarea>
+				<textarea class="reply-3" cols="30%" rows="3%" placeholder="Tulis balasan..."></textarea>
+			</div>
+			<div class="reply">
+				<button onclick="replyPopup()">Balas</button>
+			</div>
+		</div>
+		<div class="container-content-2">
+			<div class="container-content-category">
+				<h1>Kategori</h1>
+				<a class="onion" onclick="categoryPopup()" href="#">Bawang</a><br><br>
+				<a class="coconut" onclick="categoryPopup()" href="#">Kelapa</a><br><br>
+				<a class="coffee" onclick="categoryPopup()" href="#">Kopi</a><br><br>
+				<a class="second-crop" onclick="categoryPopup()" href="#">Palawija</a><br><br>
+				<a class="cane" onclick="categoryPopup()" href="#">Tebu</a><br><br>
+				<a class="tea" onclick="categoryPopup()" href="#">Teh</a><br><br>
+				<a class="other" onclick="categoryPopup()" href="#">Lainnya</a><br><br>
+			</div>
+		</div>
+	</div>
+	<div class="container-end">
+		<div class="container-about">
+			<h1>Tentang Kami</h1>
+			<p>Tani Yuk merupakan forum komunitas untuk menjawab informasi</p>
+			<p>yang dibutuhkan bagi petani maupun masyarakat luas</p>
+		</div>
+		<div class="container-connect-contact">
+			<span class="connected">
+				<h1>Tetap Terhubung</h1>
+				<a href="https://web.facebook.com/rapzzzzy/">
+					<img class="social-media" src="icon/facebook.png">
+				</a>
+				<a href="https://www.instagram.com/rapzzzzy/">
+					<img class="social-media" src="icon/instagram.png">
+				</a>
+			</span>
+			<span class="contact">
+				<h1>Kontak Kami</h1>
+				<p>Jl. Veteran No. 2H, Surabaya</p>
+				<p>Telp	 : +62 21-3522514</p>
+				<p>Fax	 : +62 21-3522514</p>
+				<p>Email : hello@taniyuk.com</p>
+			</span>
+		</div>
+		<div class="copyright">
+			<p>© 2020 Taniyuk.com | All Right Reserved</p>
+		</div>
+	</div>
+</body>
+<script src="script.js"></script>
+</html>
